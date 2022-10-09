@@ -11,9 +11,14 @@
 # Задачу можно усложнить, реализовав проверку порядка режимов. При его нарушении
 # выводить соответствующее сообщение и завершать скрипт.
 
+from TrafficLight import TrafficLight
+
 
 def main():
-    print ('dfgkdjsfgkdsjfgh')
+    t_light = TrafficLight()
+
+    t_light.running()
+
 
 if __name__ == '__main__':
     main()
